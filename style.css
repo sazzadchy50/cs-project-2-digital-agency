@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* navbar Related styles */
+nav {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/*  logo styles */
+.logo {
+  width: 40px;
+  padding: 15px;
+}
+/* menu styles */
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* hero section related styles */
+
+.hero-section {
+  background-image: url(./asset/image/background.jpg), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4));
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section-content {
+}
+.hero-section-title {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 85px; 
+  font-weight: 700;  
+  text-align: center;
+}
+.hero-section-description{
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.hero-bg{
+    color: red;
+}
+.btn{
+    padding: 15px 35px;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    border: none; 
+    margin: 5px;  
+    cursor: pointer; 
+}
+.btn-bg{
+    background-color: red;
+    color:#fff;
+
+}
+.button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
